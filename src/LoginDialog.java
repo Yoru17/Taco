@@ -41,6 +41,7 @@ public class LoginDialog extends JDialog {
 
     private void onOK() {
 // add your code here
+        new MainWindow();
         dispose();
     }
 
@@ -53,6 +54,6 @@ public class LoginDialog extends JDialog {
         LoginDialog dialog = new LoginDialog();
         dialog.pack();
         dialog.setVisible(true);
-        System.exit(0);
+       // System.exit(0);
     }
 }
